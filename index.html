@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div id='mapContainer'>
+
+        <div id="map"></div>
+    </div>
+    <div id='questionsDiv'>
+        <button id='closeButton'>X</button>
+        <img src='' id='questionImage'>
+        <div id=questionText class="text question"></div>
+        <div class="slideContainer">
+            <input type="range" min="1" max="100" value="0" class="slider" id="slider" step=10>
+        </div>
+        <div id="showingSelectionText" class="text"></div>
+        <button id="submitButton">Submit</button>
+        <div id='postSubmitInfo'>
+            <div id='correctAnswerText'></div>
+            <div id='isCorrectText'></div>
+            <div id='averageText'></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
