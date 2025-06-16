@@ -1,3 +1,3 @@
-# Climate Quiz
+Climate Quiz
 ==============
 This is a quiz that I created for my year 9 climate change project using the [Leaflet api](https://leafletjs.com/). It was designed for an iPad that would sit in the exhibition, allowing visitors to guess the answers to a range of topical questions set across the world before finding out the answer, as well as the average one of previous visitors. Looking back, the UI and UX could definitely have been improved, particularly around giving the user the correct answer, and the javascript code could have been written better to reduce the amount of copying and pasting of code.
